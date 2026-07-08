@@ -7,7 +7,7 @@ cask "postie" do
   desc "Native macOS wrapper for Facebook Messenger"
   homepage "https://github.com/ObscureMeerkat/Postie"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Postie.app"
 
