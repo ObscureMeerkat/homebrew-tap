@@ -1,6 +1,6 @@
 cask "postie" do
-  version "1.0"
-  sha256 "673f2ed97ba1935c4cc0fa0f0fcd84b1a5af1bc3116cc4efcb21cb24d42190af"
+  version "1.1"
+  sha256 "f39047c6193a74a9c905834ee5f8047f26978f584f519a1f8708a301745afea3"
 
   url "https://github.com/ObscureMeerkat/Postie/releases/download/v#{version}/Postie-#{version}.zip"
   name "Postie"
@@ -12,7 +12,7 @@ cask "postie" do
   app "Postie.app"
 
   zap trash: [
-    "~/Library/Containers/Barrett.Projects.Messenger",
+    "~/Library/Containers/Barrett.Projects.Postie",
   ]
 
   caveats <<~EOS
