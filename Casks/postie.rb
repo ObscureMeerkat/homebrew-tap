@@ -16,9 +16,9 @@ cask "postie" do
   ]
 
   caveats <<~EOS
-    Postie is not notarized. If macOS blocks the first launch, either
-    right-click Postie.app and choose Open, or install with:
+    Postie is not notarized. If macOS blocks the first launch, right-click
+    Postie.app in /Applications and choose Open, or clear the quarantine flag:
 
-      brew install --cask --no-quarantine ObscureMeerkat/tap/postie
+      xattr -dr com.apple.quarantine /Applications/Postie.app
   EOS
 end
