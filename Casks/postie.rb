@@ -1,6 +1,6 @@
 cask "postie" do
-  version "1.2"
-  sha256 "6dc8d45621b32dfee8007aae2c24cbc674514f491cef9716188292479c3c5c22"
+  version "1.3"
+  sha256 "ee74a288766bdcdd64e57b467eeb98e1e82b4e18f954a4398a7a463a210b6cee"
 
   url "https://github.com/ObscureMeerkat/Postie/releases/download/v#{version}/Postie-#{version}.zip"
   name "Postie"
